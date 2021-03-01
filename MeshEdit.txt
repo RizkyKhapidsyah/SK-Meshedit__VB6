@@ -1,0 +1,36 @@
+3D Mesh Editor
+Alan Buzbee
+Alan_Buzbee@hotmail.com
+
+Feel free to use the 3D module for any projects you may have, just give me a little credit.
+
+This project is a 3D Mesh editing tool for making fully 3D rotatable objects for games
+and stuff.  This file is a little description of how to use it.
+
+When you load the project, you should see four black windows, two listboxes, and
+some buttons.  The windows are view angles, and the listboxes contain the object
+data.  The top right window is the most helpful, it is the free rotation.  Drag the
+mouse around inside of that window to view your object from any angle.  The rest
+of the windows are top, side and front view.
+
+The top listbox contains lists of 3D points.  Put an X, Y and Z value in the text
+boxes above and click add to make a new point.  If you check the Show Vertices checkbox
+then you can see where the point is located in 3D space in the black windows.  The
+currently selected point in the listbox will appear red in the windows.  The very
+middle of the object is 0, 0, 0.  This is the center of rotation, not the upper left
+corner of the window.  To remove a point, select it and push the remove button, to
+edit a point, select it and press edit, and it will fill it with the data in the
+text boxes.  If you double click on a vertex, it will fill the text boxes with that
+vertex's data.
+
+The second listbox is the list of triangles.  A triangle is defined by a color and
+three vertices.  Look at the number in front of the vertex you want to use from
+the vertex list, then write that number in the textbox above the triangle listbox.
+Triangles are only visible from one side.  If the triangle you make is not facing
+the direction you want, change the order that the vertices are defined by switching
+the first and last vertices of the point.  Double clicking on a triangle in the listbox
+will fill the text and color data with that triangle's data.  Clicking on a triangle
+will display that triangle in red in the windows.
+
+Everything else in the project should be pretty self explanatory, but if not feel free
+to email me with any questions or comments.
